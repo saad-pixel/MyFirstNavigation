@@ -13,6 +13,7 @@
 		C2A1461823DEF655000A28F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2A1461723DEF655000A28F3 /* Assets.xcassets */; };
 		C2A1461B23DEF655000A28F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2A1461A23DEF655000A28F3 /* Preview Assets.xcassets */; };
 		C2A1461E23DEF655000A28F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2A1461C23DEF655000A28F3 /* LaunchScreen.storyboard */; };
+		C2A1462623DEF8D6000A28F3 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A1462523DEF8D6000A28F3 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C2A1461A23DEF655000A28F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C2A1461D23DEF655000A28F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2A1461F23DEF655000A28F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2A1462523DEF8D6000A28F3 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				C2A1461123DEF654000A28F3 /* AppDelegate.swift */,
 				C2A1461323DEF654000A28F3 /* SceneDelegate.swift */,
 				C2A1461523DEF654000A28F3 /* ContentView.swift */,
+				C2A1462523DEF8D6000A28F3 /* DetailView.swift */,
 				C2A1461723DEF655000A28F3 /* Assets.xcassets */,
 				C2A1461C23DEF655000A28F3 /* LaunchScreen.storyboard */,
 				C2A1461F23DEF655000A28F3 /* Info.plist */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2A1461223DEF654000A28F3 /* AppDelegate.swift in Sources */,
+				C2A1462623DEF8D6000A28F3 /* DetailView.swift in Sources */,
 				C2A1461423DEF654000A28F3 /* SceneDelegate.swift in Sources */,
 				C2A1461623DEF654000A28F3 /* ContentView.swift in Sources */,
 			);

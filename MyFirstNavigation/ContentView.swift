@@ -10,7 +10,24 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        
+        NavigationView {
+            
+            NavigationLink(destination: DetailView() ) {
+                
+                
+               Button(action: {}) {
+                       Text("Cliquez ici")
+                           .font(.title)
+                   }
+                    
+                .padding()
+                .background(Color.green)
+            .foregroundColor(Color.white)
+                .cornerRadius(20)
+               .shadow(color: Color.red, radius: 10, x: 3, y:3)
+            }
+        }
     }
 }
 
